@@ -1,0 +1,42 @@
+/* main.css 或 main.scss */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-weight: 700;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Element UI 黑白主题 */
+.el-button {
+    background-color: #333;
+    border-color: #333;
+}
+
+.el-button:hover {
+    background-color: #666;
+    border-color: #666;
+}
+
+.el-timeline-item__timestamp {
+    color: #333;
+}
+
+.el-timeline-item__tail {
+    border-left-color: #333;
+}
